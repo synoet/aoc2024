@@ -7,7 +7,6 @@ use nom::{
     IResult,
 };
 
-// Define our AST node
 #[derive(Debug, PartialEq, Clone, Copy)]
 struct Multiply {
     left: usize,
