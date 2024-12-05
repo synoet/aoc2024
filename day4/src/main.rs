@@ -1,3 +1,12 @@
+/// Searching for patterns in a grid
+///
+/// e.g. find all `XMAS`
+/// define a starting point, for `XMAS` `X` is a sufficient starting point
+/// then define a pattern to build `XMAS` from moving on the grid from `X`
+/// then explore the grid from `X` and count the number of times the pattern matches
+///
+/// https://adventofcode.com/2024/day/4
+
 type Grid = Vec<Vec<char>>;
 type Pattern = Vec<Coord>;
 type Coord = (i32, i32);
